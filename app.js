@@ -4,13 +4,14 @@
  */
 
 const express = require('express');
-const http = require('http');
 const expressConfig = require('./config/express');
+const routesConfig = require('./routes')
 
 // Setup server
 const app = express();
 
 expressConfig(app) //Config middleware express
+routesConfig(app) // Config all routes
 
 // Expose app
 module.exports = app;
