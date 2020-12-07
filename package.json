@@ -4,7 +4,8 @@
   "description": "API to expose service to calculate note",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "Maicol Felipe Duque Urrea <maicolduque01@gmail.com>",
   "license": "ISC",
