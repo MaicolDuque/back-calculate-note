@@ -41,3 +41,5 @@ data/
 # IDES
 .idea
 .vscode
+
+.vercel
