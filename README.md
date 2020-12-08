@@ -8,7 +8,7 @@ API that allow to calculate note of course.
 $ npm install
 
 # Run
-npm start
+npm run dev
 ```
 
 ## Archivos de configuración iniciales
