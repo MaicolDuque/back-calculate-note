@@ -33,6 +33,7 @@ node_modules
 # Users Environment Variables
 .env.development
 .env.production
+.env
 
 lib/
 data/
