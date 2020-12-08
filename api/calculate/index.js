@@ -8,5 +8,6 @@ const router = new Router()
 const controller = require('./calculate.controller')
 
 router.post('/', controller.calculate )
+router.get('/test', (req, res) => res.send("Hello World!"))
 
 module.exports = router
